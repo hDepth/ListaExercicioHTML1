@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+}
+
+.logof {
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+.logotipo {
+
+    height: 120px;
+    width: 240px;
+}
+
+.titulo {
+
+    height: 105px;
+    width: 375px;
+    position: absolute;
+    margin-left: 35%;
+}
+
+h1 {
+    color: white;
+    font-family:'Lucida Sans Unicode';
+    text-shadow: #da094f 2px 2px 4px;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 22px;
+    font-family: 'Lucida Sans';
+    letter-spacing: 0px;
+    
+
+}
+a{
+
+    color: rgb(218, 9, 79);
+    font-size: 20px;
+
+}
+body { 
+    background-color: black;
+}
+label{
+
+    color: white;
+}

@@ -1,0 +1,128 @@
+
+
+body { 
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+}
+
+.links{
+
+    display: flex;
+}
+.sites{
+    margin-left: 100%;
+    margin-top: 25%;
+    height: 60px;
+    width: 250px;
+
+}
+.pages{
+    border: #da094f solid 2px ;
+    box-shadow: 0 0 5px #da094f,
+                0 0 25px #da094f,
+                0 0 50px #da094f,
+                0 0 100px #da094f;
+    text-align: center;
+}
+
+
+
+.logof {
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+.logotipo {
+
+    height: 105px;
+    width: 235px;
+}
+
+.titulo {
+
+    height: 105px;
+    width: 375px;
+    position: absolute;
+    margin-left: 35%;
+}
+
+h1 {
+    color: white;
+    font-family:'Lucida Sans Unicode';
+    text-shadow: #da094f 2px 2px 4px;
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 22px;
+    font-family: 'Lucida Sans';
+    letter-spacing: 0px;
+    
+
+}
+
+a{
+
+    color: #da094f;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+
+}
+.links form .abd {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+  }
+  
+  .links .abd:hover {
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #da094f,
+                0 0 25px #da094f,
+                0 0 50px #da094f,
+                0 0 100px #da094f;
+  }
+  
+  .links .abd span {
+    position: absolute;
+    display: block;
+    bottom: 2px;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #da094f);
+    animation: animate 2s linear infinite;
+  }
+  
+ 
+  
+  @keyframes animate {
+    0%{
+      left: -100%;
+    }
+    50%, 100% {
+      left: 100%;
+    }
+  }
+
+

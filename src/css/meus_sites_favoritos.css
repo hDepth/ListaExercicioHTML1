@@ -1,0 +1,379 @@
+body {
+    background: #050505;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linha1 {
+
+    display: flex;
+
+}
+
+.linha2 {
+
+    display: flex;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.imagemAa{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAa::after {
+    content: 'DDtank';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #f79706);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #f79706,
+                0 0 25px #f79706,
+                0 0 50px #f79706,
+                0 0 100px #f79706;
+}
+.imagemAa:hover::after {
+    opacity: 1;
+}
+
+.imagemAb{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAb::after {
+    content: 'Alura';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #086df1);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #086df1,
+                0 0 25px #086df1,
+                0 0 50px #086df1,
+                0 0 100px #086df1;
+}
+.imagemAb:hover::after {
+    opacity: 1;
+}
+
+.imagemAc{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAc::after {
+    content: 'Friv';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 60px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #a408ec);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #a408ec,
+                0 0 25px #a408ec,
+                0 0 50px #a408ec,
+                0 0 100px #a408ec;
+}
+.imagemAc:hover::after {
+    opacity: 1;
+}
+
+.imagemAd{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAd::after {
+    content: 'hbo max';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #a408ec);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #a408ec,
+                0 0 25px #a408ec,
+                0 0 50px #a408ec,
+                0 0 100px #a408ec;
+}
+.imagemAd:hover::after {
+    opacity: 1;
+}
+
+.imagemAe{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAe::after {
+    content: 'netflix';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #db0303);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #db0303,
+                0 0 25px #db0303,
+                0 0 50px #db0303,
+                0 0 100px #db0303;
+}
+.imagemAe:hover::after {
+    opacity: 1;
+}
+
+.imagemAf{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAf::after {
+    content: 'spacex';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #111111);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #111111,
+                0 0 25px #111111,
+                0 0 50px #111111,
+                0 0 100px #111111;
+}
+.imagemAf:hover::after {
+    opacity: 1;
+}
+
+.imagemAg{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAg::after {
+    content: 'Top';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 40px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #f3f70a);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #f3f70a,
+                0 0 25px #f3f70a,
+                0 0 50px #f3f70a,
+                0 0 100px #f3f70a;
+}
+.imagemAg:hover::after {
+    opacity: 1;
+}
+
+.imagemAh{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAh::after {
+    content: 'Twitch';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #db037a);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #db0303,
+                0 0 25px #db0303,
+                0 0 50px #db0303,
+                0 0 100px #db0303;
+}
+.imagemAh:hover::after {
+    opacity: 1;
+}
+
+.imagemAi{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAi::after {
+    content: 'YOUTUBE';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #db0303);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #db0303,
+                0 0 25px #db0303,
+                0 0 50px #db0303,
+                0 0 100px #db0303;
+}
+.imagemAi:hover::after {
+    opacity: 1;
+}
+
+.imagemAj{
+    
+    margin-top: 20%;
+    transform: translate(-60%, -75%);
+    height: 200px;
+    width: 200px;
+    border: #c91d50 solid 2px;
+}
+
+
+.imagemAj::after {
+    content: 'Descomplica';
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 155px;
+    height: 20px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    background: linear-gradient(90deg, transparent, #06e99d);
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px #06e99d,
+                0 0 25px #06e99d,
+                0 0 50px #06e99d,
+                0 0 100px #06e99d;
+}
+.imagemAj:hover::after {
+    opacity: 1;
+}
+
+.abd {
+
+    color: blue;
+}
+  
