@@ -3,27 +3,41 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .linha1 {
 
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+    
 
 }
 
 .linha2 {
 
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding: 50px;
 }
 
 .logo {
     width: 100%;
     height: 100%;
-    
 }
 
 .imagemAa{
     
-    margin-top: 20%;
+    margin-top: 23%;
+    margin-left: 16%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -58,7 +72,7 @@ body {
 
 .imagemAb{
     
-    margin-top: 20%;
+    margin-top: 23%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -93,7 +107,7 @@ body {
 
 .imagemAc{
     
-    margin-top: 20%;
+    margin-top: 23%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -128,7 +142,7 @@ body {
 
 .imagemAd{
     
-    margin-top: 20%;
+    margin-top: 23%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -163,7 +177,7 @@ body {
 
 .imagemAe{
     
-    margin-top: 20%;
+    margin-top: 23%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -198,11 +212,11 @@ body {
 
 .imagemAf{
     
-    margin-top: 20%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
-
+    margin-top: 23%;
+    margin-left: 16%;
     border: #c91d50 solid 2px;
 }
 
@@ -234,7 +248,7 @@ body {
 
 .imagemAg{
     
-    margin-top: 20%;
+    margin-top: 23%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -269,7 +283,7 @@ body {
 
 .imagemAh{
     
-    margin-top: 20%;
+    margin-top: 23%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -304,7 +318,7 @@ body {
 
 .imagemAi{
     
-    margin-top: 20%;
+    margin-top: 23%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -339,7 +353,7 @@ body {
 
 .imagemAj{
     
-    margin-top: 20%;
+    margin-top: 23%;
     transform: translate(-60%, -75%);
     height: 200px;
     width: 200px;
@@ -372,8 +386,47 @@ body {
     opacity: 1;
 }
 
-.abd {
 
-    color: blue;
-}
+.links form .abd {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+  }
+  
+  .links .abd:hover {
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #da094f,
+                0 0 25px #da094f,
+                0 0 50px #da094f,
+                0 0 100px #da094f;
+  }
+  
+  .links .abd span {
+    position: absolute;
+    display: block;
+    bottom: 2px;
+    width: 98%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #da094f);
+    animation: animate 2s linear infinite;
+  }
+  
+ 
+  
+  @keyframes animate {
+    0%{
+      left: -100%;
+    }
+    50%, 100% {
+      left: 100%;
+    }
+  }
   

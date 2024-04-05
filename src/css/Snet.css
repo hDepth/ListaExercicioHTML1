@@ -26,11 +26,6 @@
     margin-left: 35%;
 }
 
-h1 {
-    color: white;
-    font-family:'Lucida Sans Unicode';
-    text-shadow: #da094f 2px 2px 4px;
-}
 
 h2 {
     color: white;
@@ -45,12 +40,7 @@ p{
     
 
 }
-a{
-
-    color: rgb(218, 9, 79);
-    font-size: 20px;
-
-}
+    
 body { 
     background-color: black;
 }
